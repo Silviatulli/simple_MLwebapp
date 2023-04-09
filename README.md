@@ -1,10 +1,10 @@
 # Simple ML Webapp with Flask
 introductory tutorial to build a flask web app that integrates a ML model
 
-#Requirements
+# Requirements
 `pip install flask scikit-learn pandas`
 
-#Steps
+# Steps
 ## Flask app
 * Create a new file called app.py
 * Import the Flask and pickle
