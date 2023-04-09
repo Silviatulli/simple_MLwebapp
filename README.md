@@ -18,5 +18,5 @@ introductory tutorial to build a flask web app that integrates a ML model
 * This creates a simple linear regression model that predicts the number of hours you will work based on your mood. We train the model using a small dataset of ten examples, where the mood is the input and the number of hours worked is the output. We then save the trained model using pickle
 * To train the model, simply run the model_training.py file: `python3 model_training.py`
 * This will save the trained model to a file called regression.pkl.
-## Start the application
+## Run the application
 Now, start the Flask application by running the app.py file: `python3 app.py`
