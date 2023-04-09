@@ -5,14 +5,10 @@
 </head>
 <body>
     <h1>Predict My Workload</h1>
-    <form method="POST" action="/">
-        <label for="mood">How's your mood today? (0-5)</label><br>
-        <input type="number" id="mood" name="mood" min="0" max="5"><br><br>
-        <input type="submit" id="prediction" value="Predict">
-    </form>
-
-    {% if prediction is not none %}
-    <p>Your predicted workload for today is: {{ prediction }}</p>
-    {% endif %}
+    <form method="POST" action="http://localhost:5000/predict">
+      <label for="mood">How's your mood today? (0-5)</label><br>
+      <input type="number" id="mood" name="mood" min="0" max="5"><br><br>
+      <input type="submit" id="prediction" value="Predict">
+  </form>
 </body>
 </html>
