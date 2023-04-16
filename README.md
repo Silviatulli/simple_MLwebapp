@@ -1,5 +1,6 @@
 # Simple ML Webapp with Flask
 introductory tutorial to build a flask web app that integrates a ML model
+
 ![](https://github.com/Silviatulli/simple_MLwebapp/blob/main/flask_app.gif)
 
 # Requirements
