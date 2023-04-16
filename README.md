@@ -4,7 +4,8 @@ introductory tutorial to build a flask web app that integrates a ML model
 ![](https://github.com/Silviatulli/simple_MLwebapp/blob/main/flask_webapp.gif)
 
 # Requirements
-`pip install flask scikit-learn pandas`
+`pip install flask scikit-learn pandas pymongo`
+
 
 # Steps
 ## Flask app
